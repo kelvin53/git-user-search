@@ -26,7 +26,7 @@ export class HeaderComponent implements OnInit {
       }
 
   ngOnInit() {
-    this.request.userRequested('');
+    this.request.userRequested('kelvin53');
     this.request.reposRequested('kelvin53')
   }
 
